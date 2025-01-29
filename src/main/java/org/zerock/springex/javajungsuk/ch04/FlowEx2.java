@@ -13,7 +13,7 @@ public class FlowEx2 {
             System.out.println("입력하신 숫자는 0입니다.");
         }
         if(input!=0){
-            System.out.println("입력하신 숫자는 0이 아닙니다.");
+            System.out.println("입력하신 숫자는 0이 아닙니다.");//괄호를 하면 3번째 부터 출력된다.
             System.out.printf("입력하신 숫자는 %d입니다.", input);
         }
     }
